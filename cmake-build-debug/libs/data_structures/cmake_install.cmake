@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/DNS/Desktop/ler/last/libs/data_structures
+# Install script for directory: C:/Users/DNS/Desktop/ler/git1/git/libs/data_structures
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

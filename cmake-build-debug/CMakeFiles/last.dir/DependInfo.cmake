@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/DNS/Desktop/ler/last/libs/data_structures/bitset/bitset.c" "C:/Users/DNS/Desktop/ler/last/cmake-build-debug/CMakeFiles/last.dir/libs/data_structures/bitset/bitset.c.obj"
-  "C:/Users/DNS/Desktop/ler/last/main.c" "C:/Users/DNS/Desktop/ler/last/cmake-build-debug/CMakeFiles/last.dir/main.c.obj"
+  "C:/Users/DNS/Desktop/ler/git1/git/libs/data_structures/bitset/bitset.c" "C:/Users/DNS/Desktop/ler/git1/git/cmake-build-debug/CMakeFiles/last.dir/libs/data_structures/bitset/bitset.c.obj"
+  "C:/Users/DNS/Desktop/ler/git1/git/main.c" "C:/Users/DNS/Desktop/ler/git1/git/cmake-build-debug/CMakeFiles/last.dir/main.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -23,8 +23,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "C:/Users/DNS/Desktop/ler/last/cmake-build-debug/libs/data_structures/CMakeFiles/data_structures.dir/DependInfo.cmake"
-  "C:/Users/DNS/Desktop/ler/last/cmake-build-debug/libs/algorithms/CMakeFiles/algorithms.dir/DependInfo.cmake"
+  "C:/Users/DNS/Desktop/ler/git1/git/cmake-build-debug/libs/data_structures/CMakeFiles/data_structures.dir/DependInfo.cmake"
+  "C:/Users/DNS/Desktop/ler/git1/git/cmake-build-debug/libs/algorithms/CMakeFiles/algorithms.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

@@ -56,10 +56,10 @@ RM = "D:\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\DNS\Desktop\ler\last
+CMAKE_SOURCE_DIR = C:\Users\DNS\Desktop\ler\git1\git
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\DNS\Desktop\ler\last\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\DNS\Desktop\ler\git1\git\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,14 +86,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d C:\Users\DNS\Desktop\ler\last\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\DNS\Desktop\ler\last\cmake-build-debug\CMakeFiles C:\Users\DNS\Desktop\ler\last\cmake-build-debug\libs\data_structures\\CMakeFiles\progress.marks
-	cd /d C:\Users\DNS\Desktop\ler\last\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 libs/data_structures/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\DNS\Desktop\ler\last\cmake-build-debug\CMakeFiles 0
+	cd /d C:\Users\DNS\Desktop\ler\git1\git\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\DNS\Desktop\ler\git1\git\cmake-build-debug\CMakeFiles C:\Users\DNS\Desktop\ler\git1\git\cmake-build-debug\libs\data_structures\\CMakeFiles\progress.marks
+	cd /d C:\Users\DNS\Desktop\ler\git1\git\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 libs/data_structures/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\DNS\Desktop\ler\git1\git\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d C:\Users\DNS\Desktop\ler\last\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 libs/data_structures/clean
+	cd /d C:\Users\DNS\Desktop\ler\git1\git\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 libs/data_structures/clean
 .PHONY : clean
 
 # The main clean target
@@ -102,22 +102,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d C:\Users\DNS\Desktop\ler\last\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 libs/data_structures/preinstall
+	cd /d C:\Users\DNS\Desktop\ler\git1\git\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 libs/data_structures/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d C:\Users\DNS\Desktop\ler\last\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 libs/data_structures/preinstall
+	cd /d C:\Users\DNS\Desktop\ler\git1\git\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 libs/data_structures/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d C:\Users\DNS\Desktop\ler\last\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\Users\DNS\Desktop\ler\git1\git\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 libs/data_structures/CMakeFiles/data_structures.dir/rule:
-	cd /d C:\Users\DNS\Desktop\ler\last\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 libs/data_structures/CMakeFiles/data_structures.dir/rule
+	cd /d C:\Users\DNS\Desktop\ler\git1\git\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 libs/data_structures/CMakeFiles/data_structures.dir/rule
 .PHONY : libs/data_structures/CMakeFiles/data_structures.dir/rule
 
 # Convenience name for target.
@@ -126,7 +126,7 @@ data_structures: libs/data_structures/CMakeFiles/data_structures.dir/rule
 
 # fast build rule for target.
 data_structures/fast:
-	cd /d C:\Users\DNS\Desktop\ler\last\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\CMakeFiles\data_structures.dir\build.make libs/data_structures/CMakeFiles/data_structures.dir/build
+	cd /d C:\Users\DNS\Desktop\ler\git1\git\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\CMakeFiles\data_structures.dir\build.make libs/data_structures/CMakeFiles/data_structures.dir/build
 .PHONY : data_structures/fast
 
 List/list.obj: List/list.c.obj
@@ -134,7 +134,7 @@ List/list.obj: List/list.c.obj
 
 # target to build an object file
 List/list.c.obj:
-	cd /d C:\Users\DNS\Desktop\ler\last\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\CMakeFiles\data_structures.dir\build.make libs/data_structures/CMakeFiles/data_structures.dir/List/list.c.obj
+	cd /d C:\Users\DNS\Desktop\ler\git1\git\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\CMakeFiles\data_structures.dir\build.make libs/data_structures/CMakeFiles/data_structures.dir/List/list.c.obj
 .PHONY : List/list.c.obj
 
 List/list.i: List/list.c.i
@@ -142,7 +142,7 @@ List/list.i: List/list.c.i
 
 # target to preprocess a source file
 List/list.c.i:
-	cd /d C:\Users\DNS\Desktop\ler\last\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\CMakeFiles\data_structures.dir\build.make libs/data_structures/CMakeFiles/data_structures.dir/List/list.c.i
+	cd /d C:\Users\DNS\Desktop\ler\git1\git\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\CMakeFiles\data_structures.dir\build.make libs/data_structures/CMakeFiles/data_structures.dir/List/list.c.i
 .PHONY : List/list.c.i
 
 List/list.s: List/list.c.s
@@ -150,7 +150,7 @@ List/list.s: List/list.c.s
 
 # target to generate assembly for a file
 List/list.c.s:
-	cd /d C:\Users\DNS\Desktop\ler\last\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\CMakeFiles\data_structures.dir\build.make libs/data_structures/CMakeFiles/data_structures.dir/List/list.c.s
+	cd /d C:\Users\DNS\Desktop\ler\git1\git\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\CMakeFiles\data_structures.dir\build.make libs/data_structures/CMakeFiles/data_structures.dir/List/list.c.s
 .PHONY : List/list.c.s
 
 array_struct/array.obj: array_struct/array.c.obj
@@ -158,7 +158,7 @@ array_struct/array.obj: array_struct/array.c.obj
 
 # target to build an object file
 array_struct/array.c.obj:
-	cd /d C:\Users\DNS\Desktop\ler\last\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\CMakeFiles\data_structures.dir\build.make libs/data_structures/CMakeFiles/data_structures.dir/array_struct/array.c.obj
+	cd /d C:\Users\DNS\Desktop\ler\git1\git\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\CMakeFiles\data_structures.dir\build.make libs/data_structures/CMakeFiles/data_structures.dir/array_struct/array.c.obj
 .PHONY : array_struct/array.c.obj
 
 array_struct/array.i: array_struct/array.c.i
@@ -166,7 +166,7 @@ array_struct/array.i: array_struct/array.c.i
 
 # target to preprocess a source file
 array_struct/array.c.i:
-	cd /d C:\Users\DNS\Desktop\ler\last\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\CMakeFiles\data_structures.dir\build.make libs/data_structures/CMakeFiles/data_structures.dir/array_struct/array.c.i
+	cd /d C:\Users\DNS\Desktop\ler\git1\git\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\CMakeFiles\data_structures.dir\build.make libs/data_structures/CMakeFiles/data_structures.dir/array_struct/array.c.i
 .PHONY : array_struct/array.c.i
 
 array_struct/array.s: array_struct/array.c.s
@@ -174,7 +174,7 @@ array_struct/array.s: array_struct/array.c.s
 
 # target to generate assembly for a file
 array_struct/array.c.s:
-	cd /d C:\Users\DNS\Desktop\ler\last\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\CMakeFiles\data_structures.dir\build.make libs/data_structures/CMakeFiles/data_structures.dir/array_struct/array.c.s
+	cd /d C:\Users\DNS\Desktop\ler\git1\git\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\CMakeFiles\data_structures.dir\build.make libs/data_structures/CMakeFiles/data_structures.dir/array_struct/array.c.s
 .PHONY : array_struct/array.c.s
 
 bitset/bitset.obj: bitset/bitset.c.obj
@@ -182,7 +182,7 @@ bitset/bitset.obj: bitset/bitset.c.obj
 
 # target to build an object file
 bitset/bitset.c.obj:
-	cd /d C:\Users\DNS\Desktop\ler\last\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\CMakeFiles\data_structures.dir\build.make libs/data_structures/CMakeFiles/data_structures.dir/bitset/bitset.c.obj
+	cd /d C:\Users\DNS\Desktop\ler\git1\git\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\CMakeFiles\data_structures.dir\build.make libs/data_structures/CMakeFiles/data_structures.dir/bitset/bitset.c.obj
 .PHONY : bitset/bitset.c.obj
 
 bitset/bitset.i: bitset/bitset.c.i
@@ -190,7 +190,7 @@ bitset/bitset.i: bitset/bitset.c.i
 
 # target to preprocess a source file
 bitset/bitset.c.i:
-	cd /d C:\Users\DNS\Desktop\ler\last\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\CMakeFiles\data_structures.dir\build.make libs/data_structures/CMakeFiles/data_structures.dir/bitset/bitset.c.i
+	cd /d C:\Users\DNS\Desktop\ler\git1\git\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\CMakeFiles\data_structures.dir\build.make libs/data_structures/CMakeFiles/data_structures.dir/bitset/bitset.c.i
 .PHONY : bitset/bitset.c.i
 
 bitset/bitset.s: bitset/bitset.c.s
@@ -198,7 +198,7 @@ bitset/bitset.s: bitset/bitset.c.s
 
 # target to generate assembly for a file
 bitset/bitset.c.s:
-	cd /d C:\Users\DNS\Desktop\ler\last\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\CMakeFiles\data_structures.dir\build.make libs/data_structures/CMakeFiles/data_structures.dir/bitset/bitset.c.s
+	cd /d C:\Users\DNS\Desktop\ler\git1\git\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\CMakeFiles\data_structures.dir\build.make libs/data_structures/CMakeFiles/data_structures.dir/bitset/bitset.c.s
 .PHONY : bitset/bitset.c.s
 
 ordered_array_set/ordered_array_set.obj: ordered_array_set/ordered_array_set.c.obj
@@ -206,7 +206,7 @@ ordered_array_set/ordered_array_set.obj: ordered_array_set/ordered_array_set.c.o
 
 # target to build an object file
 ordered_array_set/ordered_array_set.c.obj:
-	cd /d C:\Users\DNS\Desktop\ler\last\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\CMakeFiles\data_structures.dir\build.make libs/data_structures/CMakeFiles/data_structures.dir/ordered_array_set/ordered_array_set.c.obj
+	cd /d C:\Users\DNS\Desktop\ler\git1\git\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\CMakeFiles\data_structures.dir\build.make libs/data_structures/CMakeFiles/data_structures.dir/ordered_array_set/ordered_array_set.c.obj
 .PHONY : ordered_array_set/ordered_array_set.c.obj
 
 ordered_array_set/ordered_array_set.i: ordered_array_set/ordered_array_set.c.i
@@ -214,7 +214,7 @@ ordered_array_set/ordered_array_set.i: ordered_array_set/ordered_array_set.c.i
 
 # target to preprocess a source file
 ordered_array_set/ordered_array_set.c.i:
-	cd /d C:\Users\DNS\Desktop\ler\last\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\CMakeFiles\data_structures.dir\build.make libs/data_structures/CMakeFiles/data_structures.dir/ordered_array_set/ordered_array_set.c.i
+	cd /d C:\Users\DNS\Desktop\ler\git1\git\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\CMakeFiles\data_structures.dir\build.make libs/data_structures/CMakeFiles/data_structures.dir/ordered_array_set/ordered_array_set.c.i
 .PHONY : ordered_array_set/ordered_array_set.c.i
 
 ordered_array_set/ordered_array_set.s: ordered_array_set/ordered_array_set.c.s
@@ -222,7 +222,7 @@ ordered_array_set/ordered_array_set.s: ordered_array_set/ordered_array_set.c.s
 
 # target to generate assembly for a file
 ordered_array_set/ordered_array_set.c.s:
-	cd /d C:\Users\DNS\Desktop\ler\last\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\CMakeFiles\data_structures.dir\build.make libs/data_structures/CMakeFiles/data_structures.dir/ordered_array_set/ordered_array_set.c.s
+	cd /d C:\Users\DNS\Desktop\ler\git1\git\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\CMakeFiles\data_structures.dir\build.make libs/data_structures/CMakeFiles/data_structures.dir/ordered_array_set/ordered_array_set.c.s
 .PHONY : ordered_array_set/ordered_array_set.c.s
 
 unordered_array/unordered_array_set.obj: unordered_array/unordered_array_set.c.obj
@@ -230,7 +230,7 @@ unordered_array/unordered_array_set.obj: unordered_array/unordered_array_set.c.o
 
 # target to build an object file
 unordered_array/unordered_array_set.c.obj:
-	cd /d C:\Users\DNS\Desktop\ler\last\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\CMakeFiles\data_structures.dir\build.make libs/data_structures/CMakeFiles/data_structures.dir/unordered_array/unordered_array_set.c.obj
+	cd /d C:\Users\DNS\Desktop\ler\git1\git\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\CMakeFiles\data_structures.dir\build.make libs/data_structures/CMakeFiles/data_structures.dir/unordered_array/unordered_array_set.c.obj
 .PHONY : unordered_array/unordered_array_set.c.obj
 
 unordered_array/unordered_array_set.i: unordered_array/unordered_array_set.c.i
@@ -238,7 +238,7 @@ unordered_array/unordered_array_set.i: unordered_array/unordered_array_set.c.i
 
 # target to preprocess a source file
 unordered_array/unordered_array_set.c.i:
-	cd /d C:\Users\DNS\Desktop\ler\last\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\CMakeFiles\data_structures.dir\build.make libs/data_structures/CMakeFiles/data_structures.dir/unordered_array/unordered_array_set.c.i
+	cd /d C:\Users\DNS\Desktop\ler\git1\git\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\CMakeFiles\data_structures.dir\build.make libs/data_structures/CMakeFiles/data_structures.dir/unordered_array/unordered_array_set.c.i
 .PHONY : unordered_array/unordered_array_set.c.i
 
 unordered_array/unordered_array_set.s: unordered_array/unordered_array_set.c.s
@@ -246,7 +246,7 @@ unordered_array/unordered_array_set.s: unordered_array/unordered_array_set.c.s
 
 # target to generate assembly for a file
 unordered_array/unordered_array_set.c.s:
-	cd /d C:\Users\DNS\Desktop\ler\last\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\CMakeFiles\data_structures.dir\build.make libs/data_structures/CMakeFiles/data_structures.dir/unordered_array/unordered_array_set.c.s
+	cd /d C:\Users\DNS\Desktop\ler\git1\git\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\CMakeFiles\data_structures.dir\build.make libs/data_structures/CMakeFiles/data_structures.dir/unordered_array/unordered_array_set.c.s
 .PHONY : unordered_array/unordered_array_set.c.s
 
 vector/vector.obj: vector/vector.c.obj
@@ -254,7 +254,7 @@ vector/vector.obj: vector/vector.c.obj
 
 # target to build an object file
 vector/vector.c.obj:
-	cd /d C:\Users\DNS\Desktop\ler\last\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\CMakeFiles\data_structures.dir\build.make libs/data_structures/CMakeFiles/data_structures.dir/vector/vector.c.obj
+	cd /d C:\Users\DNS\Desktop\ler\git1\git\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\CMakeFiles\data_structures.dir\build.make libs/data_structures/CMakeFiles/data_structures.dir/vector/vector.c.obj
 .PHONY : vector/vector.c.obj
 
 vector/vector.i: vector/vector.c.i
@@ -262,7 +262,7 @@ vector/vector.i: vector/vector.c.i
 
 # target to preprocess a source file
 vector/vector.c.i:
-	cd /d C:\Users\DNS\Desktop\ler\last\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\CMakeFiles\data_structures.dir\build.make libs/data_structures/CMakeFiles/data_structures.dir/vector/vector.c.i
+	cd /d C:\Users\DNS\Desktop\ler\git1\git\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\CMakeFiles\data_structures.dir\build.make libs/data_structures/CMakeFiles/data_structures.dir/vector/vector.c.i
 .PHONY : vector/vector.c.i
 
 vector/vector.s: vector/vector.c.s
@@ -270,32 +270,8 @@ vector/vector.s: vector/vector.c.s
 
 # target to generate assembly for a file
 vector/vector.c.s:
-	cd /d C:\Users\DNS\Desktop\ler\last\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\CMakeFiles\data_structures.dir\build.make libs/data_structures/CMakeFiles/data_structures.dir/vector/vector.c.s
+	cd /d C:\Users\DNS\Desktop\ler\git1\git\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\CMakeFiles\data_structures.dir\build.make libs/data_structures/CMakeFiles/data_structures.dir/vector/vector.c.s
 .PHONY : vector/vector.c.s
-
-vector/vectorVoid.obj: vector/vectorVoid.c.obj
-.PHONY : vector/vectorVoid.obj
-
-# target to build an object file
-vector/vectorVoid.c.obj:
-	cd /d C:\Users\DNS\Desktop\ler\last\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\CMakeFiles\data_structures.dir\build.make libs/data_structures/CMakeFiles/data_structures.dir/vector/vectorVoid.c.obj
-.PHONY : vector/vectorVoid.c.obj
-
-vector/vectorVoid.i: vector/vectorVoid.c.i
-.PHONY : vector/vectorVoid.i
-
-# target to preprocess a source file
-vector/vectorVoid.c.i:
-	cd /d C:\Users\DNS\Desktop\ler\last\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\CMakeFiles\data_structures.dir\build.make libs/data_structures/CMakeFiles/data_structures.dir/vector/vectorVoid.c.i
-.PHONY : vector/vectorVoid.c.i
-
-vector/vectorVoid.s: vector/vectorVoid.c.s
-.PHONY : vector/vectorVoid.s
-
-# target to generate assembly for a file
-vector/vectorVoid.c.s:
-	cd /d C:\Users\DNS\Desktop\ler\last\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\CMakeFiles\data_structures.dir\build.make libs/data_structures/CMakeFiles/data_structures.dir/vector/vectorVoid.c.s
-.PHONY : vector/vectorVoid.c.s
 
 # Help Target
 help:
@@ -324,9 +300,6 @@ help:
 	@echo ... vector/vector.obj
 	@echo ... vector/vector.i
 	@echo ... vector/vector.s
-	@echo ... vector/vectorVoid.obj
-	@echo ... vector/vectorVoid.i
-	@echo ... vector/vectorVoid.s
 .PHONY : help
 
 
@@ -338,6 +311,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d C:\Users\DNS\Desktop\ler\last\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\Users\DNS\Desktop\ler\git1\git\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

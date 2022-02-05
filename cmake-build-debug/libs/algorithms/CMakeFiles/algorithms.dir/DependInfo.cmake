@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/DNS/Desktop/ler/last/libs/algorithms/array/array.c" "C:/Users/DNS/Desktop/ler/last/cmake-build-debug/libs/algorithms/CMakeFiles/algorithms.dir/array/array.c.obj"
+  "C:/Users/DNS/Desktop/ler/git1/git/libs/algorithms/array/array.c" "C:/Users/DNS/Desktop/ler/git1/git/cmake-build-debug/libs/algorithms/CMakeFiles/algorithms.dir/array/array.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

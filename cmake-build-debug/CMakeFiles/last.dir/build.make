@@ -52,10 +52,10 @@ RM = "D:\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\DNS\Desktop\ler\last
+CMAKE_SOURCE_DIR = C:\Users\DNS\Desktop\ler\git1\git
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\DNS\Desktop\ler\last\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\DNS\Desktop\ler\git1\git\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/last.dir/depend.make
@@ -67,29 +67,29 @@ include CMakeFiles/last.dir/flags.make
 
 CMakeFiles/last.dir/main.c.obj: CMakeFiles/last.dir/flags.make
 CMakeFiles/last.dir/main.c.obj: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\DNS\Desktop\ler\last\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/last.dir/main.c.obj"
-	D:\Compulator\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\last.dir\main.c.obj -c C:\Users\DNS\Desktop\ler\last\main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\DNS\Desktop\ler\git1\git\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/last.dir/main.c.obj"
+	D:\Compulator\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\last.dir\main.c.obj -c C:\Users\DNS\Desktop\ler\git1\git\main.c
 
 CMakeFiles/last.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/last.dir/main.c.i"
-	D:\Compulator\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\DNS\Desktop\ler\last\main.c > CMakeFiles\last.dir\main.c.i
+	D:\Compulator\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\DNS\Desktop\ler\git1\git\main.c > CMakeFiles\last.dir\main.c.i
 
 CMakeFiles/last.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/last.dir/main.c.s"
-	D:\Compulator\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\DNS\Desktop\ler\last\main.c -o CMakeFiles\last.dir\main.c.s
+	D:\Compulator\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\DNS\Desktop\ler\git1\git\main.c -o CMakeFiles\last.dir\main.c.s
 
 CMakeFiles/last.dir/libs/data_structures/bitset/bitset.c.obj: CMakeFiles/last.dir/flags.make
 CMakeFiles/last.dir/libs/data_structures/bitset/bitset.c.obj: ../libs/data_structures/bitset/bitset.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\DNS\Desktop\ler\last\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/last.dir/libs/data_structures/bitset/bitset.c.obj"
-	D:\Compulator\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\last.dir\libs\data_structures\bitset\bitset.c.obj -c C:\Users\DNS\Desktop\ler\last\libs\data_structures\bitset\bitset.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\DNS\Desktop\ler\git1\git\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/last.dir/libs/data_structures/bitset/bitset.c.obj"
+	D:\Compulator\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\last.dir\libs\data_structures\bitset\bitset.c.obj -c C:\Users\DNS\Desktop\ler\git1\git\libs\data_structures\bitset\bitset.c
 
 CMakeFiles/last.dir/libs/data_structures/bitset/bitset.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/last.dir/libs/data_structures/bitset/bitset.c.i"
-	D:\Compulator\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\DNS\Desktop\ler\last\libs\data_structures\bitset\bitset.c > CMakeFiles\last.dir\libs\data_structures\bitset\bitset.c.i
+	D:\Compulator\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\DNS\Desktop\ler\git1\git\libs\data_structures\bitset\bitset.c > CMakeFiles\last.dir\libs\data_structures\bitset\bitset.c.i
 
 CMakeFiles/last.dir/libs/data_structures/bitset/bitset.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/last.dir/libs/data_structures/bitset/bitset.c.s"
-	D:\Compulator\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\DNS\Desktop\ler\last\libs\data_structures\bitset\bitset.c -o CMakeFiles\last.dir\libs\data_structures\bitset\bitset.c.s
+	D:\Compulator\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\DNS\Desktop\ler\git1\git\libs\data_structures\bitset\bitset.c -o CMakeFiles\last.dir\libs\data_structures\bitset\bitset.c.s
 
 # Object files for target last
 last_OBJECTS = \
@@ -107,7 +107,7 @@ last.exe: libs/algorithms/libalgorithms.a
 last.exe: CMakeFiles/last.dir/linklibs.rsp
 last.exe: CMakeFiles/last.dir/objects1.rsp
 last.exe: CMakeFiles/last.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\DNS\Desktop\ler\last\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable last.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\DNS\Desktop\ler\git1\git\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable last.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\last.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -119,6 +119,6 @@ CMakeFiles/last.dir/clean:
 .PHONY : CMakeFiles/last.dir/clean
 
 CMakeFiles/last.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\DNS\Desktop\ler\last C:\Users\DNS\Desktop\ler\last C:\Users\DNS\Desktop\ler\last\cmake-build-debug C:\Users\DNS\Desktop\ler\last\cmake-build-debug C:\Users\DNS\Desktop\ler\last\cmake-build-debug\CMakeFiles\last.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\DNS\Desktop\ler\git1\git C:\Users\DNS\Desktop\ler\git1\git C:\Users\DNS\Desktop\ler\git1\git\cmake-build-debug C:\Users\DNS\Desktop\ler\git1\git\cmake-build-debug C:\Users\DNS\Desktop\ler\git1\git\cmake-build-debug\CMakeFiles\last.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/last.dir/depend
 

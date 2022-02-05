@@ -8,13 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/DNS/Desktop/ler/last/libs/data_structures/List/list.c" "C:/Users/DNS/Desktop/ler/last/cmake-build-debug/libs/data_structures/CMakeFiles/data_structures.dir/List/list.c.obj"
-  "C:/Users/DNS/Desktop/ler/last/libs/data_structures/array_struct/array.c" "C:/Users/DNS/Desktop/ler/last/cmake-build-debug/libs/data_structures/CMakeFiles/data_structures.dir/array_struct/array.c.obj"
-  "C:/Users/DNS/Desktop/ler/last/libs/data_structures/bitset/bitset.c" "C:/Users/DNS/Desktop/ler/last/cmake-build-debug/libs/data_structures/CMakeFiles/data_structures.dir/bitset/bitset.c.obj"
-  "C:/Users/DNS/Desktop/ler/last/libs/data_structures/ordered_array_set/ordered_array_set.c" "C:/Users/DNS/Desktop/ler/last/cmake-build-debug/libs/data_structures/CMakeFiles/data_structures.dir/ordered_array_set/ordered_array_set.c.obj"
-  "C:/Users/DNS/Desktop/ler/last/libs/data_structures/unordered_array/unordered_array_set.c" "C:/Users/DNS/Desktop/ler/last/cmake-build-debug/libs/data_structures/CMakeFiles/data_structures.dir/unordered_array/unordered_array_set.c.obj"
-  "C:/Users/DNS/Desktop/ler/last/libs/data_structures/vector/vector.c" "C:/Users/DNS/Desktop/ler/last/cmake-build-debug/libs/data_structures/CMakeFiles/data_structures.dir/vector/vector.c.obj"
-  "C:/Users/DNS/Desktop/ler/last/libs/data_structures/vector/vectorVoid.c" "C:/Users/DNS/Desktop/ler/last/cmake-build-debug/libs/data_structures/CMakeFiles/data_structures.dir/vector/vectorVoid.c.obj"
+  "C:/Users/DNS/Desktop/ler/git1/git/libs/data_structures/List/list.c" "C:/Users/DNS/Desktop/ler/git1/git/cmake-build-debug/libs/data_structures/CMakeFiles/data_structures.dir/List/list.c.obj"
+  "C:/Users/DNS/Desktop/ler/git1/git/libs/data_structures/array_struct/array.c" "C:/Users/DNS/Desktop/ler/git1/git/cmake-build-debug/libs/data_structures/CMakeFiles/data_structures.dir/array_struct/array.c.obj"
+  "C:/Users/DNS/Desktop/ler/git1/git/libs/data_structures/bitset/bitset.c" "C:/Users/DNS/Desktop/ler/git1/git/cmake-build-debug/libs/data_structures/CMakeFiles/data_structures.dir/bitset/bitset.c.obj"
+  "C:/Users/DNS/Desktop/ler/git1/git/libs/data_structures/ordered_array_set/ordered_array_set.c" "C:/Users/DNS/Desktop/ler/git1/git/cmake-build-debug/libs/data_structures/CMakeFiles/data_structures.dir/ordered_array_set/ordered_array_set.c.obj"
+  "C:/Users/DNS/Desktop/ler/git1/git/libs/data_structures/unordered_array/unordered_array_set.c" "C:/Users/DNS/Desktop/ler/git1/git/cmake-build-debug/libs/data_structures/CMakeFiles/data_structures.dir/unordered_array/unordered_array_set.c.obj"
+  "C:/Users/DNS/Desktop/ler/git1/git/libs/data_structures/vector/vector.c" "C:/Users/DNS/Desktop/ler/git1/git/cmake-build-debug/libs/data_structures/CMakeFiles/data_structures.dir/vector/vector.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

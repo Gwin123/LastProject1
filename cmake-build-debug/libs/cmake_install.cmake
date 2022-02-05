@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/DNS/Desktop/ler/last/libs
+# Install script for directory: C:/Users/DNS/Desktop/ler/git1/git/libs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,11 +39,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/DNS/Desktop/ler/last/cmake-build-debug/libs/algorithms/cmake_install.cmake")
+  include("C:/Users/DNS/Desktop/ler/git1/git/cmake-build-debug/libs/algorithms/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/DNS/Desktop/ler/last/cmake-build-debug/libs/data_structures/cmake_install.cmake")
+  include("C:/Users/DNS/Desktop/ler/git1/git/cmake-build-debug/libs/data_structures/cmake_install.cmake")
 endif()
 

@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/DNS/Desktop/ler/last/libs/algorithms
+# Install script for directory: C:/Users/DNS/Desktop/ler/git1/git/libs/algorithms
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
